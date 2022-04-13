@@ -5,10 +5,10 @@
 * {
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+    margin: 0;
 }
 
 body {
-    margin: 0;
     width: 550px;
     height: 460px;
 }
@@ -34,4 +34,33 @@ nav h4 {
     font-weight: 600;
     margin-right: 27px;
 
+}
+.main {
+    background-color: #282D35;
+    height: 459px;
+    background-image: url(./images/reactjs-icon\ 2.png);
+    background-repeat: no-repeat;
+    background-position: right 75%;
+}
+.main h1 {
+    padding-top: 56px;
+    padding-left: 27px;
+    margin-bottom: 46px;
+    font-size: 39px;
+    color: #FFFFFF;
+    letter-spacing: -0.05em;
+}
+
+.main ul {
+    padding-left: 66px;
+}
+.main li {
+    color: #FFFFFF;
+    font-weight: 400;
+    padding-block: 10px;
+    width: 390px;
+}
+.main li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
 }
